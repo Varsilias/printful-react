@@ -1,0 +1,16 @@
+.todolist__container {
+  background-color: #F9F9F9;
+}
+
+.todos {
+  border-bottom: 0.5px solid #D6E0EF;
+
+}
+
+.done__button {
+  background-color: #E7E7E7;
+}
+
+.icon {
+  width: 40px;
+}

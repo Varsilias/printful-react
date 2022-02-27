@@ -1,0 +1,27 @@
+.loader_container > div {
+  animation: loading 1s ease infinite forwards;
+}
+
+.loader_container .first {
+  animation-delay: 0;
+}
+
+.loader_container .second {
+  animation-delay: .3s;
+}
+
+.loader_container .third {
+  animation-delay: .6s;
+}
+
+@keyframes loading {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

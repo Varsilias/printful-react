@@ -1,0 +1,24 @@
+.divider {
+  border: none;
+  border-top: 0.5px solid #D6E0EF;
+}
+
+.printful__delete__button__secondary {
+  border: 1px solid #ff6187;
+  color: #ff6187;
+}
+
+.printful__delete__button__secondary:hover {
+  background-color: #ff6187;
+  color: #fff;
+}
+
+.printful__add__button__secondary {
+  border: 1px solid #4791ff;
+  color: #4791ff;
+} 
+
+.printful__add__button__secondary:hover {
+  background-color: #4791ff;
+  color: #fff;
+}
